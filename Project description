@@ -1,0 +1,30 @@
+
+---
+
+### **Program Description**
+
+This Python program is designed to compute various statistical measures from a fixed-size list of numbers. Specifically, it processes a list containing exactly **nine numerical values**, reshaping them into a **3×3 matrix** using NumPy. This approach allows for matrix-level operations and makes the computation of statistics more structured and meaningful.
+
+Once the matrix is created, the program calculates six key statistical metrics:
+
+1. **Mean** – The average of the values.
+2. **Variance** – The measure of how far values spread from the mean.
+3. **Standard Deviation** – The square root of the variance, showing the dispersion.
+4. **Maximum** – The largest value.
+5. **Minimum** – The smallest value.
+6. **Sum** – The total of all values.
+
+For each of these metrics, the program provides results in three perspectives:
+- **Column-wise**: Statistics computed for each of the three columns.
+- **Row-wise**: Statistics computed for each of the three rows.
+- **Overall**: A single value computed over the entire 3×3 matrix.
+
+To ensure clear understanding and usability, the program prints each result in a formatted, line-by-line output. This structure helps users easily interpret how data behaves across rows, columns, and the whole matrix.
+
+The function also returns the results as a dictionary. Each key in the dictionary corresponds to a statistical measure, and the associated value is a list containing the column-wise, row-wise, and overall statistics. This makes the function reusable in other contexts where programmatic access to the results is needed—such as in data analysis workflows or automated reports.
+
+Additionally, the program includes error handling to ensure the input list contains exactly nine elements. This protects against unexpected behaviors or incorrect assumptions in the reshaping process.
+
+Overall, this program serves as a compact yet comprehensive tool for exploring matrix-based statistics using NumPy, and is ideal for learners and developers who want to deepen their understanding of numerical computing, array manipulation, and statistical analysis in Python.
+
+---
